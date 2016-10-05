@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Guinnifer Fuld, MBA Student</title>
+  <title>My happy site</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href=style.css>
-  <link rel="stylesheet" href=font-awesome-4.6.3/css/font-awesome.min.css>
+  <script src="https://use.fontawesome.com/187a7b1b87.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -21,14 +21,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Home</a>
+          <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i></a>
         </div>
-
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="about.html">About me <span class="sr-only">(current)</span></a></li>
-            <li><a href="quotes.html">Quotes as inspiration</a></li>
+            <li><a href="quotes.html">Quotes</a></li>
+            <li><a href="travel.html"><i class="fa fa-globe" aria-hidden="true"></i>Travel</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Still Curious?<span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -36,8 +36,6 @@
                 <li><a href="http://chicagochronicles.wordpress.com">Today's blog</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="http://www.rsm.nl">Grad school</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Friends</a></li>
               </ul>
             </li>
           </ul>
@@ -54,26 +52,103 @@
                 <li><a href="https://www.learnsomethingeveryday.co.uk">Learn Something Everyday</a></li>
                 <li><a href="https://speld.nl">Some Dutch Humor</a></li>
                 <li><a href="https://www.ishetalvrijdag.nl">More Dutch Humor</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="https://www.pinterest.com">Inspiration central</a></li>
               </ul>
             </li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-    <div>
-    </div>
-    <div class="row">
-      <img src="dilbertmba.gif" class="center-block" max-width="100%" height="auto">
-    </div>
+  </div>
+  <div class="container">
+	<div class="row">
+		<!-- Carousel -->
+    	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+			  	<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+			    <div class="item active">
+            <div class="img-darker">
+			    	<img src="dilbertmba.gif" alt="First slide">
+          </div>
+                    <!-- Static Header -->
+                    <div class="header-text hidden-xs">
+                        <div class="col-md-12 text-center">
+                            <h2>
+                            	<span>Let's have some <strong>FUN</strong></span>
+                            </h2>
+                            <br>
+                            <h3>
+                            	<span>Life is too short to be serious!</span>
+                            </h3>
+                            <br>
+                            <div class="">
+                                <a class="btn btn-theme btn-sm btn-min-block" href="quotes.html">Go for more inspiration</a></div>
+                        </div>
+                    </div><!-- /header-text -->
+			    </div>
+			    <div class="item">
+			    	<img src=img/ibiza-food-carousel.jpg alt="Second slide">
+			    	<!-- Static Header -->
+                    <div class="header-text hidden-xs">
+                        <div class="col-md-12 text-center">
+                            <h2>
+                                <span>Let's talk <strong>GOOD FOOD</strong></span>
+                            </h2>
+                            <br>
+                            <h3>
+                            	<span>Enjoy good food with good wine pairings and friends</span>
+                            </h3>
+                            <br>
+                            <div class="">
+                                <a class="btn btn-theme btn-sm btn-min-block" href="http://www.foodnetwork.com/">Yum Yum FOOD!</a></div>
+                        </div>
+                    </div><!-- /header-text -->
+			    </div>
+			    <div class="item">
+			    	<img src=img/norway-3-carousel.jpg alt="Third slide">
+			    	<!-- Static Header -->
+                    <div class="header-text hidden-xs">
+                        <div class="col-md-12 text-center">
+                            <h2>
+                                <span>Or we can also <em>go somewhere</em></span>
+                            </h2>
+                            <br>
+                            <h3>
+                            	<span>Places I've been, places you want to go.</span>
+                            </h3>
+                            <br>
+                            <div class="">
+                                <a class="btn btn-theme btn-sm btn-min-block" href=travel.html>Curious?</a><a class="btn btn-theme btn-sm btn-min-block" href=about:blank>Or not?</a></div>
+                        </div>
+                    </div><!-- /header-text -->
+			    </div>
+			</div>
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+		    	<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+		    	<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div><!-- /carousel -->
+	</div>
+</div>
+<div class="container">
     <div class="row">
       <div> </div>
       <div></div>
-      <div class=col-sm-9>
+      <div class="jumbotron">
         <h1> Welcome to my page!</h1>
-        <div></div>
+        <br>
         <div>The goal of this page is to have some fun! So let's get this party started!
-</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

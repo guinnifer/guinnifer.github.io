@@ -4,8 +4,8 @@
   <title>About Guinnifer</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href=style.css>
   <link rel="stylesheet" href=font-awesome-4.6.3/css/font-awesome.min.css>
+  <link rel="stylesheet" href=style.css>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -21,23 +21,21 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Home</a>
+          <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i></a>
         </div>
-
-        <!-- Update links in line with index.html -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="about.html">About me <span class="sr-only">(current)</span></a></li>
-            <li><a href="quotes.html">Quotes as inspiration</a></li>
+            <li><a href="quotes.html">Quotes</a></li>
+            <li><a href="travel.html"><i class="fa fa-globe" aria-hidden="true"></i>Travel</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Still Curious?<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="http://guinnifer.fuld.net">HTML back in the day</a></li>
                 <li><a href="http://chicagochronicles.wordpress.com">Today's blog</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="#">Grad school</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Friends</a></li>
+                <li><a href="http://www.rsm.nl">Grad school</a></li>
               </ul>
             </li>
           </ul>
@@ -48,15 +46,12 @@
             <button type="submit" class="btn btn-default">Search</button>
           </form>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Ciao</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Favourite Websites<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="https://www.learnsomethingeveryday.co.uk">Learn Something Everyday</a></li>
                 <li><a href="https://speld.nl">Some Dutch Humor</a></li>
                 <li><a href="https://www.ishetalvrijdag.nl">More Dutch Humor</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="https://www.pinterest.com">Inspiration central</a></li>
               </ul>
             </li>
           </ul>
@@ -67,10 +62,11 @@
     </div>
   <div class="row">
     <div class="col-sm-6">
-    <img src="guinnifer2.jpg" class="img-responsive" max-width="100%" height="auto">
+    <img src=img/scheveningen-3.jpg class="img-responsive" max-width="100%" height="auto">
   </div>
-  <div class="col-sm-6">
-    <div class="row">
+  <div class="col-sm-6 trans-bkg">
+    <div class="container">
+      <div class="row">
       <h1>Guinnifer, MBA Student </h1>
     </div>
     <div class="row">
@@ -78,12 +74,17 @@
     </div>
   <div class="row">
     <h3>Join my online party!</h3>
-    <ul class="list-unstyled">
-      <li><a href="mailto:guinnifer.fuld@kellogg.northwestern.edu" class="btn btn-default">Email</a></li>
-      <li><a href="http://twitter.com/GuinniferF" class="btn btn-default">Twitter</a></li>
-      <li><a href="https://www.instagram.com/guinniferf/" class="btn btn-default">Instagram</a></li>
-      <li><a href="http://facebook.com/guinnifer" class="btn btn-default">Facebook</a></li>
-    </ul>
+    <div class="btn-group">
+      <a class="btn btn-default" href="mailto:guinnifer.fuld@kellogg.northwestern.edu">
+        <i class="fa fa-envelope fa-2x" title="Mail"></i>
+      </a>
+      <a class="btn btn-default" href="http://www.instagram.com/guinniferf">
+        <i class="fa fa-instagram fa-2x" title="Instagram"></i>
+      </a>
+      <a class="btn btn-default" href="https://nl.pinterest.com/guinniferf/">
+        <i class="fa fa-pinterest-square fa-2x" title="Pinterest"></i>
+      </a>
+    </div>
   </div>
   <div class="row">
     <h3>Life Motto</h3>
@@ -94,20 +95,42 @@
   </div>
 </div>
 </div>
+</div>
+<div class="row" style="height:100px"></div>
 <div class="row">
-  <div class="col-sm-4">
-      <h5>Dutchie, 1Y Class of 2017</h5>
-      <p>One of the four Dutch 'ambassadors' in the 1Y class of 2017. Wearing <span class="orange">orange</span> with pride</p>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <i class="fa fa-graduation-cap fa-4x" aria-hidden="true"></i>
+      <div class="caption">
+        <h3>Dutchie, 1Y Class of 2017</h3>
+        <p>One of the four Dutch 'ambassadors' in the 1Y class of 2017. Wearing <span class="orange">orange</span> with pride</p>
+        <p><a href="http://www.kellogg.northwestern.edu/" class="btn btn-primary" role="button">About Kellogg</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
   </div>
-  <div class="col-sm-4">
-    <h5>Horse rider, Endurance</h5>
-    <p>Was already riding horses before I could <span id="bike">bike</span>, quite the accomplishment for a <span class="orange">Dutchie</span>...</p>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <i class="fa fa-paw fa-4x" aria-hidden="true"></i>
+      <div class="caption">
+        <h3>Horse rider, as far as we can</h3>
+        <p>Was already riding horses before I could <span id="bike">bike</span>, quite the accomplishment for a <span class="orange">Dutchie</p>
+        <p><a href="http://www.kellogg.northwestern.edu/" class="btn btn-primary" role="button">Endurance</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
   </div>
-  <div class="col-sm-4">
-    <span class="fa-camera-retro"></span><h5>Photographer, just for fun</h5>
-    <p>Taking <em>Carpe Diem</em> very literally.</p>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <i class="fa fa-camera-retro fa-4x" aria-hidden="true"></i>
+      <div class="caption">
+        <h3>Photographer, just for fun</h3>
+        <p>Taking <em>Carpe Diem</em> very literally.</p>
+        <p><a href="http://www.kellogg.northwestern.edu/" class="btn btn-primary" role="button">Endurance</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
 </div>
-</div>
+
+
 </div>
 </body>
 </html>
