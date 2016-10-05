@@ -150,3 +150,10 @@ body {
   background: rgb(255, 255, 255); /* Fallback */
   background: rgba(255, 255, 255, 0.7);
 }
+@media (max-width: @screen-xs) {
+    body{font-size: 1.5em;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 1.25em;}
+}
