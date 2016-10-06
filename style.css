@@ -157,3 +157,6 @@ body {
 @media (max-width: @screen-sm) {
     body{font-size: 1.25em;}
 }
+.top-buffer {
+  margin-top:75px;
+}
