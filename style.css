@@ -142,7 +142,7 @@ body {
     border-color: #fff;
 }
 .img-darker{
-  filter:brightness(40%);
+  filter:brightness(60%);
 }
 .img-center {
     display: block;
