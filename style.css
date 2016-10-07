@@ -43,8 +43,8 @@ body {
 }
 
 .carousel-inner img {
-    width: 100%;
-    min-height: 100px
+    min-height: 300px;
+    min-width: 100%;
 }
 
 .carousel-control {
@@ -102,7 +102,7 @@ body {
 /* Carousel Header Styles */
 .header-text {
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 1.8%;
     right: auto;
     width: 96.66666666666666%;
@@ -110,7 +110,7 @@ body {
 }
 
 .header-text h2 {
-    font-size: 40px;
+    font-size: 200%;
 }
 
 .header-text h2 span {
