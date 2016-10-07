@@ -143,6 +143,14 @@ body {
 .img-darker{
   filter:brightness(40%);
 }
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+.limit {
+    max-height:500px;
+    overflow:hidden;
+}
 .jumbotron{
   background-color: white;
 }
@@ -159,4 +167,11 @@ body {
 }
 .top-buffer {
   margin-top:75px;
+}
+.zero-margin {
+  margin:0px;
+}
+#guinnifer{
+  font-family:'Garamond';
+  color: green;
 }
