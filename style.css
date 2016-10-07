@@ -44,6 +44,7 @@ body {
 
 .carousel-inner img {
     height: 300px;
+    min-width: 100%;
     overflow: hidden;
 }
 
